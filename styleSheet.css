@@ -1,0 +1,51 @@
+body {
+    background-color: #444444;
+}
+#chart_div {
+    text-align: right;
+    border-radius: 10px;
+    height: 300px;
+}
+#chart_div2 {
+    text-align: right;
+    border-radius: 10px;
+    height: 300px;
+    width: 90%;
+}
+#header {
+    background-color: whitesmoke;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 15px;
+    font-size: 30px;
+}
+#content {
+    border-radius: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: whitesmoke;
+    padding: 20px;
+    font-size: 20px;
+}
+#button {
+    text-align: center;
+}
+#footer {
+    background-color: whitesmoke;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
