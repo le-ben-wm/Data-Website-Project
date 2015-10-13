@@ -1,5 +1,6 @@
 body {
-    background-color: #444444;
+    background-image: url("http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg");
+    background-size: cover;
 }
 #chart_div {
     text-align: right;
@@ -13,7 +14,7 @@ body {
     width: 90%;
 }
 #header {
-    background-color: whitesmoke;
+    background-color: lightgrey;
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
@@ -24,7 +25,7 @@ body {
     border-radius: 15px;
     margin-right: 100px;
     margin-left: 100px;
-    background-color: whitesmoke;
+    background-color: lightgrey;
     padding: 20px;
     font-size: 20px;
 }
@@ -32,7 +33,7 @@ body {
     text-align: center;
 }
 #footer {
-    background-color: whitesmoke;
+    background-color: lightgrey;
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 15px;

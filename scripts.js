@@ -35,7 +35,7 @@ function drawAxisTickColors() {
                 color: '#848484'
             }
         },
-        backgroundColor: "#f5f5f5"
+        backgroundColor: "#d3d3d3"
     };
     var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
     chart.draw(data, options);
@@ -76,7 +76,7 @@ function drawLogScales() {
         series: {
             1: {curveType: 'function'}
         },
-        backgroundColor: '#f5f5f5'
+        backgroundColor: '#d3d3d3'
     };
 
     var chart = new google.visualization.LineChart(document.getElementById('chart_div2'));
@@ -158,7 +158,9 @@ function alertButton() {
                                 "of millions and the fall of the the Atrar Union. Game Over.");
                         }
                     }
-
+                    else if (serOneCiv === "sewer") {
+                        alert("You and your men enter the sewers. However, it appears that the Metherian forces expected you here. You are unable to fight off the ambush. GAME OVER.")
+                    }
                 }
                 break;
 
